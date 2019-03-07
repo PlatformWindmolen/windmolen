@@ -1,0 +1,226 @@
+<html>
+<title>
+WindmolenCollege
+</title>
+
+ <style>
+#sitem {width:1400px; height:6000px}
+	 
+#tepe {background-color:white; width:1400px;height:45px;position:fixed; top:1px; z-index:5;} 
+
+#title {font:bold 100px calibri light; color:rgb(195, 255, 0); position:absolute; margin-left:130px; top:60px; padding 0px; z-index:1;}
+#title2 {font:bold 20px ariel; color:orange; position:absolute; margin-left:130px; top:160px; padding 0px; z-index:3;}
+
+#logo {position:fixed; top:0px; left:10px; width:80px; height:45px; z-index:6;}
+#logo2 {position:absolute; top:130px; left:30px; width:100px; height:90px; z-index:6; border-radius:70%;}
+#kayan {position:relative; width:65%; height:380px; overflow:hidden; margin:45px 2px; float:left; z-index:1;}
+
+#editor {border:1px solid blue; text-align:left; font-family:calibri light; font-size:18px; position:relative;  float:left; width:32%; height:360px; margin:45px 2px 1px 1px;  padding:10px; line-height:1.2em; overflow-y:auto;}
+
+#overons {border:1px solid blue; position:relative; float:left; width:620px; height:280px; margin:2px; padding:10px; line-height:1.5em; overflow-y:auto;}
+
+#contact {background-color: black; color:white; font-family: Arial; border:1px solid blue; position:relative;  float:left; width:90%; height:100px; margin:2px; padding:60px; text-align:center; line-height:1.5em;}
+
+#filmtv {border:1px solid blue; position:relative;  float:left; width:620px; height:280px; margin:2px; padding:10px; line-height:1.5em; overflow-y:auto;}
+
+#Boeken {}
+
+#araba {position:relative; width:1400px; height:380px; overflow:hidden; margin:1px;z-index:1;}
+
+#ehliyet {background-color: white; padding:50px 10px 100px 20px; position:relative; font-family:calibri light; font-size:18px;
+	float:left; width:800px; height:700px; margin:1px 300px; text-align:justify; line-height:1.5em;z-index:2;}
+
+#uzunbaslik {background-color: rgb(0, 10, 100); color:white; font-family: Arial; font-size:30px; position:relative;  float:left; 
+	width:1400px; height:40px; margin:30px 1px 1px 1px; text-align:center; line-height:20px;
+	padding-top: 40px;
+    	padding-right: 0px;
+    	padding-bottom: 20px;
+    	padding-left: 0px; }
+
+.menu { position:relative; width:9%; height:20px; padding:10px; margin:1px 2px; float:right; background-color:rgb(195, 255, 0); color:black; font-weight:bold; font-size:14px;text-align:center;} 
+
+.land {background-color:rgb(180,255,151); width:98%; height:100px; border-radius: 10px;}
+ 
+.baslik { background-color:rgb(0, 10, 100); margin:4px; width:32%; height:40px; position:relative;  float:left; 
+border:2px rgb(0, 10, 100); font-family:sans-serif; color:white; font-weight:bold; font-size:20px; 
+    padding-top: 17px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px; }
+
+.altbaslik {background-color:rgb(195, 255, 0);}
+
+.list {border:1px solid blue; position:relative; text-align:left; float:left; width:31%; height:500px; margin:5px; padding:10px;  line-height:1.5em; overflow-y:auto;}
+
+.haberfoto {position:relative; width:120px; height:80px; margin:5px; float:left;}	
+
+
+</style>
+
+	
+
+<body>
+<div id="sitem">
+ 
+    <div id="tepe">
+    <div class="menu"><a href="#Boeken"> Bibliotheek</a></div>
+    <div class="menu"><a href="#Tv">TV & Bioscoop   </a></div>
+    <div class="menu"> <a href="#Werk">Werk&Leven  </a></div>
+       <div class="menu"> <a href="#contact">Contact  </a></div>	 
+	 <div class="menu"><a href="#uzunbaslik">Auto & Rijbewijs </div>
+	 <div class="menu"> <a href="https://nl.bab.la/woordenboek/nederlands-engels/nederland">Bab.la   </a></div>
+	 <div class="menu"> <a href="https://translate.google.com/?hl=nl">Translate  </a></div>
+      	<div class="menu"> <a href="http://www.mijnwoordenboek.nl/ww.php">Vervoegen  </a></div>
+	<div class="menu"> <a href="#sitem">Home</a></div>
+      </div>
+
+ <img id="logo" src="https://static.wixstatic.com/media/60fa59_f04a7d7825bf49f7aea70435dcde8295~mv2.jpg/v1/fill/w_142,h_80,al_c,q_80,usm_0.66_1.00_0.01/60fa59_f04a7d7825bf49f7aea70435dcde8295~mv2.webp";>
+ <img id="logo2" src="https://static.wixstatic.com/media/60fa59_f04a7d7825bf49f7aea70435dcde8295~mv2.jpg/v1/fill/w_142,h_80,al_c,q_80,usm_0.66_1.00_0.01/60fa59_f04a7d7825bf49f7aea70435dcde8295~mv2.webp";>
+
+<div id="kayan"><img style="width:1400px; height:auto;" src="http://resimdiyari.com/_data/i/upload/2012/10/14/20121014182832-c7880087-me.jpg"> 
+ 
+  <div><a id="title"> Windmolen </a></div><div><a id="title2"> Een Platform voor Nieuwkomers in Nederland </a> </div>
+</div>
+	    
+ <h2 id="editor">
+	Dear Visitors! <br>
+	Welcome to our site. In this site you will find useful information that may help you at developing your language level in Dutch. Furthermore you can find tips and advices regarding life in Nederland. Besides them, we select some news from Nederland’s main pres. We hope you enjoy the site.<br>
+	<br> <strong> Why Windmolen? </strong><br>
+	It means windmill in Dutch. It is one of the symbols of Nederland. It is used to transfer the water between chanals. It is a symbol of environmentally friendly energy. It reminds nature and clean air. :)It has a bold and innocent stance against Don Quixote.
+	<a class="land"> Read more. <br></a>
+  
+   
+    <img style="width:150px; height:auto" src="https://static.wixstatic.com/media/60fa59_f04a7d7825bf49f7aea70435dcde8295~mv2.jpg/v1/fill/w_142,h_80,al_c,q_80,usm_0.66_1.00_0.01/60fa59_f04a7d7825bf49f7aea70435dcde8295~mv2.webp";>
+</h2>
+
+
+ <div style="clear:both;">
+   <h3 class="baslik" >Windmolen Nieuws </h3>
+   <h4 class="baslik" >Windmolen School </h4>
+   <h5 class="baslik" >Windmolen Taal</h5>
+ </div>
+ 
+ 
+ <ul class="list" >
+   <li class="land"> <img class="haberfoto" src="https://images0.persgroep.net/rcs/5H3tbg2bM2JgonSk8i5em0vlppU/diocontent/140908839/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.9"> 
+   <a href="https://www.ad.nl/binnenland/staatsexamen-uitgesteld-inburgeraars-snakken-naar-test~a4eb2e3b/">
+   <strong> AD : </strong> <br>Staatsexamen uitgesteld: inburgeraars snakken naar test </a></li><br>
+   
+   <li class="land"><img class="haberfoto" src="https://images0.persgroep.net/rcs/5H3tbg2bM2JgonSk8i5em0vlppU/diocontent/140908839/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.9"> <a href="https://nos.nl/artikel/2255192-examens-nederlands-als-tweede-taal-uitgesteld.html">
+   <strong> NOS </strong><br> Examens Nederlands als tweede taal uitgesteld. -- NOS </a></li><br>
+   
+   <li class="land"><img class="haberfoto" src="https://images0.persgroep.net/rcs/5H3tbg2bM2JgonSk8i5em0vlppU/diocontent/140908839/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.9"> <a  href="https://www.volkskrant.nl/es-bf7caf1e"><strong> Volkskrant</strong><br> 
+	  Ombudsman: Inburgering geeft nieuwkomers een valse start in Nederland.   </a></li><br>
+  
+   <li class="land"><img class="haberfoto" src="https://images0.persgroep.net/rcs/5H3tbg2bM2JgonSk8i5em0vlppU/diocontent/140908839/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.9"> <a href="https://www.volkskrant.nl/nieuws-achtergrond/migratiesaldo-in-nederland-bereikt-recordhoogte-een-plus-van-81-duizend-~b0cbd569/">
+   Migratiesaldo in Nederland bereikt recordhoogte: een plus van 81 duizend.  </li></a><br>
+	  </ul> 
+
+
+   <ul class="list">
+    <iframe width="453" height="281" src="https://www.youtube.com/embed/hes7RfuNqvU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+   <a class="altbaslik">USEFUL VIDEOS</a><br>
+	 <li><a href="https://www.youtube.com/watch?v=Ic4a2KKRwg4&utm_source=Weekly+newletter+Learndutch.org&utm_campaign=112f20b7e9-startsubclause_COPY_01&utm_medium=email&utm_term=0_efbe1f10f1-112f20b7e9-276953161&mc_cid=112f20b7e9&mc_eid=6af5c6c1a5">How to learn Dutch? Bart de Pau.</a> <br> 
+	 <li><a href="https://www.youtube.com/watch?v=hes7RfuNqvU">Education System in Nederland</a><br>
+	 <li><a href="NicolaasFerro.github.io/onderwijssysteem-nederland.pdf">Onderwijssysteem in Nederland (pdf) </a> <br>
+	 <li><a href="https://www.khanacademy.org/">Khan Academy(English)</a><a href="https://nl.khanacademy.org/">(Nederlands)</a></br>
+	 <a class="altbaslik">SITES VOOR OPLEIDING</a><br>
+	 <li><a href="http://wiskundeacademie.nl/">WiskundeAcademie...Matematik Dersleri</a><br> 
+	 <li><a href="https://schooltv.nl/">Schooltv</a><br>
+	 <li><a href="https://www.entoen.nu/">Geschiedenis van Nederland/History of Netherland/Hollanda'nin Tarihi</a><br>	 
+	 <li><a href="https://www.uaf.nl/home/"> UAF (Het UAF ondersteunt hoogopgeleide vluchtelingen bij het realiseren van een passende maatschappelijke positie.) </a><br>
+	 <li><a href="https://www.idw.nl/nl/diplomawaardering.html"> IDW (Voor diplomawaardering) </a><br>	
+  </ul>
+
+
+<ul class="list" >
+   <a class="altbaslik">TAAL SITES</a><br>
+         In the following links, you can find videos and TV programs which may help you on developing your listening comprehention in Dutch. <br>
+	 <li><a href="https://www.youtube.com/watch?v=Tb3SaTv4clM"> Woord Voor Woord </a><br>
+	 <li><a href="https://www.bookbox.com"> BookBox </a> <br> 
+	 <li><a href="https://www.learndutch.org/">Learndutch.org.(Bart de Pou) </a><br> 
+	 <li><a href="http://virtueletraining.com/">Virtuale Training</a><br>
+	 <li><a href="https://jeugdjournaal.nl/"> NOS Jeugdjournaal</a> <br> 
+	 <li><a href="https://www.hetklokhuis.nl/"> Klockhuis </a><br> 
+	 <li><a href="https://www.netinnederland.nl/"> NetinNederland <br>  
+	 <li><a href="https://www.2doc.nl/"> Documentaries met Ondertitel <br> 
+         <li> <a href="http://www.taalwinkel.nl/">TaalWinkel : Hét online taaladviespunt HvA en UvA <br>
+	 <li><a href="https://nt2taalmenu.nl/"> Nt2taalmenu <br> <a href="https://oefenen.nl/"> Oefenen.nl </a> <br>
+	 <li><a href="https://www.npostart.nl"> NPO Start </a> <br>
+	 <li><a href="https://inburgeren.nl/examen-doen/oefenen.jsp"> Inburgering Examen</a><br>
+	 <li><a href="https://www.staatsexamensnt2.nl/"> Staatsexamen </a><br>
+	<br> Wij danken aan de eigenaars van sites en we kondigen aan dat wij geen inkommst krijgen.<br> 
+ </ul>  
+
+     
+ <div>    
+<h5 class="baslik" id="Boek" >WM Bibliotheek</h5>
+<h6 class="baslik" id="Tv">WM TV&Bioscoop</h6>
+<h7 class="baslik" id="Werk">WM Werk&Leven&ICT </h7>		
+ </div>   
+     
+  <p id="Boeken" class="list"><strong class="altbaslik"> BOEKEN </strong> <br> 
+	  <a href="http://www.debestseller60.nl/">  Kijk ook Nederlands bestseller lijt! </a> <br>
+	  <strong> BOEK SAMENVATTING//KONING VAN KATOREN </strong> <br>
+Op de avond dat de koning van Katoren overlijdt wordt er een jongetje geboren: Stach. De dag na zijn geboorte valt zijn vader uit de vlaggenmast en overlijdt ook. Zijn moeder schrikt hier zo van dat zij de kraamvrouwenkoorts niet overleeft. Vanaf nu zal de oom van Stach (Gervaas) voor hem gaan zorgen. Er werd geen nieuwe koning benoemd. En op een avond droomde Gervaas dat Stach de koning van Katoren was.
+
+Gervaas haalde Stach over om aan de ministers te vragen wat je moest doen om koning van Katoren te worden. Het antwoord hierop was dat hij 7 opdrachten moest vervullen. Als dat hem niet lukte zou dat zijn dood betekenen. Stach ging hiermee akkoord. Hij kreeg zijn eerste opdracht: maak een eind aan het geschreeuw van de vogels van Decibel. Stach had nog nooit van die vogels gehoord. Hij ging met volle moed op weg.
+Zodra hij aankwam in het stadje vroeg hij de weg, maar niemand hoorde hem. Ze hadden ook nog rare kleppen op. Haastig roept een vrouw hem binnen. Ze legt uit dat de vogels van Decibel zo'n ontzettend lawaai maken dat je doof kan worden van hun geschreeuw. Zij geeft Stach ook een paar oorkleppen. 
+De burgemeester van Decibel legt alles uit over de vogels van Decibel. Na een aantal dagen is Stach al een heleboel te weet gekomen. Hij heeft ook een idee. Hij koopt een toongenerator met extra grote luidsprekers. Zodra de vogels boven het stadje vliegen zet hij de toongenerator aan. De vogels probeerden boven het geluid van het apparaat uit te komen. Telkens zet Stach het apparaat op een hogere toon. Tot dat de stembanden van alle beestjes zijn geknapt. Ze konden geen geluid meer maken. 
+Het was feest in Decibel. Stachs eerste opdracht was geslaagd.
+Opdracht twee was: hak in Wapenfelt de granaatappelboom om. In de trein naar Wapenfelt komt Stach de dochter van de burgemeester tegen: Kim. Zij vertelt alles over de granaatappelboom. Aan de boom groeien in plaats van appels granaten. Als die granaten van de boom op de grond vallen geeft dat een daverende explosie. 
+Stach wordt tijdens een bezoekje aan de granaatappelboom door een granaat geraakt. Hij moet in bed blijven om te genezen. In bed bedenkt Stach een plan. Hij zorgt ervoor dat de kruitfabriek (die bij de granaatappelboom in de buurt staat) stopt met het produceren van kruit. Omdat er dan geen gevaarlijke stoffen (kruit) uit de schoorsteen van de fabriek de lucht in verdwijnt groeien er weer gewone appels aan de boom. Zo kon de boom worden omgehakt. 
+Opdracht twee was ook geslaagd. En Stach had een nieuw vriendinnetje: Kim. Ze beloven contact te houden.</p>
+  
+     <p class="list"><strong class="altbaslik"> FILMS EN TV PROGRAMMAS </strong> <br> 
+	<Strong> DE FILMS DIE IK RAAD U AAN TE KIJKEN  </strong><br>
+	 Bankier van het Verzet (2018)<br>
+	 The 13th Warrior (1999) <br>
+	 Jakob the Liar (1999)<br>
+	 Enemy of the State (1998) <br>
+	 Schindler's List (1993) <br>
+	 The Zookeeper's Wife (2017)
+	 12 Angry Men (1957) <br>
+	 Life is beautiful (1998) <br>
+	 The Last Knights (2015) <br>
+	 Blood Diamond (2006) <br> AUB, mail mij de namen van films die u houden van. Dus ik kan de lijst vergroten.<br>
+ <strong>TV PROGRAMMA'S: <br> Zondag met Lubach. <br> Wie is de Mol? </strong>	  
+Het format is aan meer dan vijftig landen verkocht, waaronder Nederland ook besond. 
+Het programma draait om een spel, waarbij de kandidaten moeten samenwerken om geld voor een pot te verdienen. Een van hen is de mol, degene die het spel in het geheim saboteert. De winnaar krijgt de pot.
+De kandidaten reizen naar het buitenland, waar ze allerlei opdrachten moeten uitvoeren. Deze bestemmingen wisselen per seizoen.
+Na elke ronde (elke twee/drie dagen) krijgen de kandidaten via een laptop twintig vragen (in de finale veertig vragen) over de identiteit van de mol. De laatste vraag van deze test is altijd "Wie is de Mol?", waarbij de kandidaten moeten aangeven wie ze denken dat de mol is. Degene die de minste goede antwoorden geeft (rood scherm), ligt uit het spel en gaat direct naar huis. 
+Uiteindelijk blijven er drie kandidaten in de finale over. Een wint, een verliest en de derde is de mol. De kandidaat die in de finale de test het beste maakt, wint Wie is de Mol? en daarmee de pot met het geld.
+	</p>
+
+<p class="list">
+  <strong class="altbaslik"> Hier zijn wat nuttig links. </strong> <br> 	<a href="https://refugeestartforce.eu/"> *** Refugee Start Force </a><br>
+	<a href="http://hackyourfuture.net/"> *** Hack Your Future </a><br>
+ <a href="https://www.freecodecamp.org/news/beaucarnes/learn-javascript-full-course--j4Va5cR1p"> --- Javascript Curses </a><br>
+	<a href="https://whichmuseum.nl/nederland/beste-musea"> Beste 100 Musea in Nederland! </a><br>											       
+	<a href="https://www.w3schools.com/html/"> w3schools </a>			 
+</p>
+		 
+	<div>
+	<div><h10 id="uzunbaslik"><br>Het Rijden in Nederland </h10></div>
+        <div id="araba"><img style="width:1400px; height:auto;" src="https://welingelicht-welingelichtekri.netdna-ssl.com/wp-content/uploads/2018/07/HH-77859332-750x480.jpg"> 
+	</div>
+	<div><p id="ehliyet"> 
+  <strong class="altbaslik">Hollanda’da Ehliyet Almak* </strong><br>
+(*The Text is writen in Turkish/De tekst is geschreven in het Turks)<br>
+AB üyesi ülkelerinden alınmış ehliyeti olanlar, ehliyetlerini doğrudan  Hollanda ehliyeti ile değiştirebilirler. Diğer ülkelerden alınan ehliyetler sadece 185 gün geçerli. Bu süre, Hollanda’da sürekli ikamet etmeye basladığınız tarihten itibaren başlıyor.
+Ehliyet sınavlarını Hollanda’da CBR adı verilen bir kuruluş yapıyor. Teori ve pratik olmak üzere iki sınav var. 
+Teori sınavına CBR sitesinden şahsen basvurulabiliyor. Hollandaca sınav 31,5 Euro. Sınava İngilizce de (37 Euro ) girebilirsiniz. Ya da Türkçe tercümanla da girebilirsiniz. Ancak tercüman 200-250 Euro civarında.. Sınava bir kurs araciliğla hazırlanabileceginiz gibi, kendiniz de calışabilirsiniz. Ancak iyi çalısmak gerekli. Zira sınav zor, birçok kişi, ikinci yada üçüncü hakkında geçebiliyor. Kütüphaneden yada internetten siparişle bir kitap temin edebilirsiniz. Ayrıca internette teori dersleri ve soruları bulmak mümkün. Sinav iki bölümden oluşuyor. Birinci bölümde 25 soru var ve en az 15 doğru yapmanız gerekiyor. Bu bolümde trafik akışı içerisinde sürücü mahvilinden görülen farklı durumlarda göstereceğiniz tepki ölçülüyor. “Frene bas”, Gazı serbest bırak” yada “Oldugun gibi devam et” şeklinde üç seçenek sunuluyor. 
+Özellikle ikinci bölüm daha zor. Tamamen teoriden oluşan bu bölümde 40 soru var. 35 net çıkartmak gerekli. 
+İkinci sınav olan uygulama (praktijk) sınavından önce, <a class="land" href="https://www.cbr.nl/nl.htm">CBR sitesinden</a> DIGID numaranızla oturum açıp, sağlık formu doldurmanız gerekli. Bir rahatsızlığınız yoksa, buradaki sorulara hayır cevabı vereceksiniz. Bu önemli. Bundan sonra anlaştığınız kursa, bu oturum hesabınızdan yetki (Machtiging) vereceksiniz. Sınav tarihinizi kurs hocanız alabiliyor. Sınav ücreti  102 Euro, kursun aldığı ücretle beraber 250 Euroyu buluyor. Bu sınava da Türkçe tercümanla girilebiliyor. Tabiki maliyeti daha yüksek.
+<br> Nelere dikkat etmeli:<br>
+Hollanda’da bisiklet trafiği yoğun oldugu için dönüslerde ve kavsaklarda bisiklet yollarinin kontrolü baş saga veya sola döndürülerek yapilmali, sadece gozle degil. Yoksa elenirsiniz. Ayrica Hollanda’daki yol ceşitleri iyi ögrenilmeli. 30 km lik yollarda kavşaklar eşit önceliklidir, yani sağdan gelen trafiğe öncelik vermek gerekiyor. Ayrıca Hollanda’da sürücülerden, trafiği sürekli açık bırakacak şekilde seri araç kullanılmasi ve hız limitlerinin iyi kullanılması bekleniyor. İlave olarak, burada yol üzerinde yönlendirme okları çizilmiş. İzi doğru takip etmezseniz farklı yönlere girmek zorunda kalırsınız. Bunlar gibi geldiğiniz ülkelere kıyasla daha birçok farklılık var. Bunları kurs hocanız anlatacaktır. 
+Sınavı geçince, CBR, belediyenize bir yazı gönderiyor. Ehliyetinizi almak için belediyenize başvuruyorsunuz. Bir hafta içinde teslim ediliyor.
+Kolay gelsin.<br>
+Araba alımı konusuda bilgiler yakında geliyor.
+     </p> </div><div>   
+     
+ <div><p id="contact"> 
+Contact: <br>ferronicolaas@gmail.com <br> Wij verwachten graag uw contributies en tips. </p>  </div>
+    
+</div>
+</body>  
